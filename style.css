@@ -1,0 +1,75 @@
+.control{
+  width: 500px;
+  height: 100px;
+  padding: 0 50px;
+  background-color: #eee;
+  justify-content: space-between;
+}
+.control input{
+  width: 250px;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+.control button{
+  width: 100px;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+
+#root{
+  width: 500px;
+}
+main{
+  background-color: #eee;
+}
+img{
+  width: 200px;
+  height: 150px;
+  padding-top: 20px;
+}
+.info{
+  width: 100%;
+  margin-top: 25px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 25% 50%;
+  gap: 20px;
+  font-size: 20px;
+}
+
+@media screen and (max-width:500px) {
+  .control{
+    width: 250px;
+    height: 80px;
+    padding: 5px 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .control input{
+    width: 220px;
+    height: 25px;
+  }
+  .control button{
+    width: 100px;
+    height: 25px;
+    padding: 0;
+  }
+  #root{
+    width: 250px;
+  }
+  img{
+    width: 100px;
+    height: 80px;
+    padding-top: 15px;
+}
+  .info{
+    margin-top: 0px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 10px;
+    font-size: 15px;
+  }
+}
